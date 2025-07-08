@@ -15,7 +15,7 @@ const ChatbotHistorySchema = z.object({
   content: z.string(),
 });
 
-export const ChatbotFlowInputSchema = z.object({
+const ChatbotFlowInputSchema = z.object({
   query: z.string().describe("The user's latest message to the chatbot."),
   history: z
     .array(ChatbotHistorySchema)
@@ -23,7 +23,7 @@ export const ChatbotFlowInputSchema = z.object({
 });
 export type ChatbotFlowInput = z.infer<typeof ChatbotFlowInputSchema>;
 
-export const ChatbotFlowOutputSchema = z.object({
+const ChatbotFlowOutputSchema = z.object({
   response: z.string().describe("The chatbot's response to the user query."),
   suggestions: z
     .array(z.string())
