@@ -8,12 +8,11 @@ export function BiographySection() {
         <div className="relative mx-auto w-full max-w-md">
           <Card className="overflow-hidden rounded-2xl shadow-2xl transition-transform duration-300 hover:scale-105">
             <Image
-              src="https://placehold.co/600x700.png"
+              src="/assets/images/profile.png"
               alt="Oliver Valenzuela"
               width={600}
               height={700}
               className="aspect-[6/7] object-cover"
-              data-ai-hint="professional headshot"
             />
           </Card>
         </div>
