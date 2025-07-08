@@ -22,7 +22,7 @@ export function WhatsappFab() {
   return (
     <Button
       asChild
-      className="fixed bottom-8 right-8 z-50 h-16 w-16 rounded-full bg-[#25D366] p-4 text-white shadow-lg transition-transform hover:scale-110 hover:bg-[#25D366]/90"
+      className="fixed bottom-8 left-8 z-50 h-16 w-16 rounded-full bg-[#25D366] p-4 text-white shadow-lg transition-transform hover:scale-110 hover:bg-[#25D366]/90"
       aria-label="Contact via WhatsApp"
     >
       <Link href="https://wa.me/50230508344" target="_blank" rel="noopener noreferrer">

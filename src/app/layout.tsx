@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Toaster } from '@/components/ui/toaster';
 import './globals.css';
 import { WhatsappFab } from '@/components/whatsapp-fab';
+import { ChatbotWidget } from '@/components/chatbot-widget';
 
 export const metadata: Metadata = {
   title: 'Oliver Valenzuela | Learning Solutions Portfolio',
@@ -28,6 +29,7 @@ export default function RootLayout({
         {children}
         <Toaster />
         <WhatsappFab />
+        <ChatbotWidget />
       </body>
     </html>
   );
