@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu, BookOpen } from 'lucide-react';
+import { Menu } from 'lucide-react';
 
 const navLinks = [
   { href: '#about', label: 'About' },
@@ -31,8 +31,7 @@ export function Header() {
       }`}
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
-        <Link href="#home" className="flex items-center gap-2 font-headline text-xl font-bold transition-transform hover:scale-105 md:text-2xl">
-          <BookOpen className="h-7 w-7 text-primary" />
+        <Link href="#home" className="flex items-center font-headline text-xl font-bold transition-transform hover:scale-105 md:text-2xl">
           <span>Oliver Valenzuela</span>
         </Link>
         <nav className="hidden items-center gap-6 md:flex">
@@ -59,8 +58,7 @@ export function Header() {
             </SheetTrigger>
             <SheetContent side="right">
               <div className="flex h-full flex-col p-6">
-                <Link href="#home" className="mb-8 flex items-center gap-2 font-headline text-2xl font-bold">
-                  <BookOpen className="h-7 w-7 text-primary" />
+                <Link href="#home" className="mb-8 flex items-center font-headline text-2xl font-bold">
                   <span>Oliver Valenzuela</span>
                 </Link>
                 <nav className="flex flex-col gap-6">
