@@ -10,13 +10,21 @@ const skills = [
   "Performance Analysis",
 ];
 
-const tools = [
-  "Articulate Storyline",
+const toolsIUse = [
+  "Articulate Storyline & Rise",
   "Adobe Captivate",
-  "Figma",
-  "Vyond",
-  "LMS Platforms",
-  "Camtasia",
+  "Adobe Illustrator & Photoshop",
+  "Canva",
+  "Mindsmith",
+  "Google AI Studio",
+  "OpenAI Playground",
+];
+
+const lmsExperience = [
+  "Instructure Canvas & Bridge",
+  "TalentLMS",
+  "LMS360",
+  "Moodle",
 ];
 
 export function ProfessionalBackgroundSection() {
@@ -45,17 +53,33 @@ export function ProfessionalBackgroundSection() {
           </Card>
           <Card>
             <CardHeader>
-              <CardTitle className="font-headline text-2xl">Proficient Tools</CardTitle>
+              <CardTitle className="font-headline text-2xl">Technology Proficiency</CardTitle>
             </CardHeader>
             <CardContent>
-              <ul className="space-y-3">
-                {tools.map((tool) => (
-                  <li key={tool} className="flex items-center gap-3">
-                    <CheckCircle className="h-5 w-5 text-primary" />
-                    <span className="text-muted-foreground">{tool}</span>
-                  </li>
-                ))}
-              </ul>
+              <div className="space-y-6">
+                <div>
+                  <h3 className="mb-3 text-lg font-semibold text-foreground">Tools I Use</h3>
+                  <ul className="space-y-3">
+                    {toolsIUse.map((tool) => (
+                      <li key={tool} className="flex items-center gap-3">
+                        <CheckCircle className="h-5 w-5 text-primary" />
+                        <span className="text-muted-foreground">{tool}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="mb-3 text-lg font-semibold text-foreground">LMS Experience</h3>
+                  <ul className="space-y-3">
+                    {lmsExperience.map((lms) => (
+                      <li key={lms} className="flex items-center gap-3">
+                        <CheckCircle className="h-5 w-5 text-primary" />
+                        <span className="text-muted-foreground">{lms}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
             </CardContent>
           </Card>
         </div>
