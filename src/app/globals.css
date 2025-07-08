@@ -24,6 +24,9 @@
  
     --accent: 254 72% 38%;
     --accent-foreground: 210 40% 98%;
+
+    --highlight: 170 70% 45%;
+    --highlight-foreground: 210 40% 98%;
  
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
@@ -56,6 +59,9 @@
 
     --accent: 254 72% 38%; /* #391aa9 */
     --accent-foreground: 210 40% 98%;
+
+    --highlight: 170 70% 50%;
+    --highlight-foreground: 210 40% 98%;
 
     --destructive: 0 63% 31%;
     --destructive-foreground: 210 40% 98%;
