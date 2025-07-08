@@ -16,38 +16,31 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: 'Interactive Sales Onboarding',
-    description: 'A gamified e-learning module for new sales representatives. Focuses on product knowledge, sales techniques, and company culture. Includes interactive scenarios and quizzes.',
+    title: 'The Empathy Call: A Customer Support Simulation',
+    description: 'Step into the shoes of a support agent handling a frustrated customer. This branching simulation helps learners master empathy, problem-solving, and tone — in real-time. Highlights: Scenario-based, soft skills, decision-driven.',
     imageUrl: 'https://placehold.co/600x400.png',
-    imageHint: 'corporate training',
-    projectUrl: '#',
+    imageHint: 'customer support',
+    projectUrl: 'https://how2studiodemo.s3.us-east-2.amazonaws.com/Login+Issues+Roleplay/story.html',
   },
   {
-    title: 'Software Simulation Training',
-    description: 'A step-by-step interactive simulation to train employees on a new proprietary software suite. Features guided walkthroughs and practice environments to ensure proficiency.',
+    title: 'Work Smart: Micro Habits for a Better Desk and Brain',
+    description: 'A 5-minute microlearning experience that blends workplace wellness and behavioral science to improve focus and reduce stress through desk setup. Highlights: Microlearning, productivity, well-being.',
     imageUrl: 'https://placehold.co/600x400.png',
-    imageHint: 'software interface',
-    projectUrl: '#',
+    imageHint: 'desk wellness',
+    projectUrl: 'https://how2studiodemo.s3.us-east-2.amazonaws.com/Organize+Your+Desk+Like+a+Pro/story.html',
   },
   {
-    title: 'Compliance & Ethics Course',
-    description: 'A mandatory annual training program for all employees covering company policies, data privacy, and ethical conduct. Designed to be engaging and memorable.',
+    title: 'EcoSort Challenge: Master the Art of Smart Recycling',
+    description: 'A gamified challenge where learners sort items quickly and correctly to boost their recycling habits and sustainability awareness. Highlights: Gamified, environmental behavior, visual learning.',
     imageUrl: 'https://placehold.co/600x400.png',
-    imageHint: 'legal document',
-    projectUrl: '#',
-  },
-  {
-    title: 'Leadership Development Series',
-    description: 'A blended learning program for emerging leaders. Combines video-based lessons, peer collaboration exercises, and self-paced modules on management skills.',
-    imageUrl: 'https://placehold.co/600x400.png',
-    imageHint: 'team meeting',
-    projectUrl: '#',
+    imageHint: 'recycling game',
+    projectUrl: 'https://how2studiodemo.s3.us-east-2.amazonaws.com/Recycling+Challenge+Sort+the+Trash/story.html',
   },
 ];
 
 export function PortfolioSectionClient() {
   return (
-    <div className="mt-12 grid gap-8 sm:grid-cols-2">
+    <div className="mt-12 grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
       {projects.map((project) => (
         <Card key={project.title} className="flex flex-col overflow-hidden bg-card transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
           <Image
