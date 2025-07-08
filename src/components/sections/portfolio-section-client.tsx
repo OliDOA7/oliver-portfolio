@@ -18,7 +18,7 @@ const projects: Project[] = [
   {
     title: 'The Empathy Call: A Customer Support Simulation',
     description: 'Step into the shoes of a support agent handling a frustrated customer. This branching simulation helps learners master empathy, problem-solving, and tone — in real-time. Highlights: Scenario-based, soft skills, decision-driven.',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: 'https://images.unsplash.com/photo-1712159018726-4564d92f3ec2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMnx8Y2FsbCUyMGNlbnRlcnxlbnwwfHx8fDE3NTE5NTg1NDF8MA&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'customer support',
     projectUrl: 'https://how2studiodemo.s3.us-east-2.amazonaws.com/Login+Issues+Roleplay/story.html',
   },
