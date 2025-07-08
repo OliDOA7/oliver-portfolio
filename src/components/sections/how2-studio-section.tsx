@@ -27,7 +27,7 @@ export function How2StudioSection() {
         <div className="relative mx-auto w-full max-w-lg">
           <Card className="overflow-hidden rounded-2xl shadow-2xl transition-transform duration-300 hover:scale-105">
             <Image
-              src="/assets/images/how2s.png"
+              src="/assets/images/how2s.png?v=1"
               alt="How2 Studio Team"
               width={600}
               height={400}
