@@ -27,12 +27,11 @@ export function How2StudioSection() {
         <div className="relative mx-auto w-full max-w-lg">
           <Card className="overflow-hidden rounded-2xl shadow-2xl transition-transform duration-300 hover:scale-105">
             <Image
-              src="https://placehold.co/600x400.png"
+              src="/assets/images/how2s.png"
               alt="How2 Studio Team"
               width={600}
               height={400}
               className="aspect-video w-full object-cover"
-              data-ai-hint="studio team"
             />
           </Card>
         </div>
