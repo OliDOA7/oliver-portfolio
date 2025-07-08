@@ -18,7 +18,7 @@ export function How2StudioSection() {
             If you ever need something more full-scale, I’ve got a team for that too. At How2 Studio, we build smart learning experiences and custom software—fast, creative, and always tailored to your goals.
           </p>
           <Button asChild className="transition-transform hover:scale-105">
-            <Link href="https://howw2.com" target="_blank">
+            <Link href="https://studio--how2-studio.us-central1.hosted.app/" target="_blank">
               Check Out How2 Studio
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
