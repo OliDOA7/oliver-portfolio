@@ -4,6 +4,7 @@ import { BiographySection } from '@/components/sections/biography-section';
 import { ProfessionalBackgroundSection } from '@/components/sections/professional-background-section';
 import { PortfolioSection } from '@/components/sections/portfolio-section';
 import { ContactSection } from '@/components/sections/contact-section';
+import { How2StudioSection } from '@/components/sections/how2-studio-section';
 import { Footer } from '@/components/sections/footer';
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <ProfessionalBackgroundSection />
         <PortfolioSection />
         <ContactSection />
+        <How2StudioSection />
       </main>
       <Footer />
     </div>
