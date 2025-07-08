@@ -13,7 +13,7 @@ export function HeroSection() {
       <div className="container mx-auto flex h-full flex-col items-center justify-center px-4 text-center md:px-6">
         <div className="relative z-10 max-w-3xl space-y-6">
           <h1 className="font-headline text-5xl font-bold tracking-tight text-white sm:text-6xl md:text-7xl">
-            Designing <span className="text-primary">Engaging</span> Learning Experiences
+            Designing <span className="text-accent">Engaging</span> Learning Experiences
           </h1>
           <p className="text-lg text-primary-foreground/90 md:text-xl">
             I'm Oliver Valenzuela, a passionate learning solutions designer specializing in creating intuitive, effective, and visually compelling educational content.
