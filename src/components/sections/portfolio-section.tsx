@@ -9,6 +9,9 @@ export function PortfolioSection() {
           <p className="mt-4 text-lg text-muted-foreground">
             A selection of projects that showcase my expertise in creating effective and engaging learning solutions.
           </p>
+          <p className="mt-4 text-muted-foreground">
+            For each project, click the button to get AI-powered design suggestions based on its description. It's a demonstration of how AI can assist in the creative process.
+          </p>
         </div>
         <PortfolioSectionClient />
       </div>
