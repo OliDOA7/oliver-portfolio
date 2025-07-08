@@ -17,7 +17,7 @@ export function Footer() {
           <Link href="#home" className="transition-colors hover:text-primary">Home</Link>
           <Link href="#about" className="transition-colors hover:text-primary">About</Link>
           <Link href="#portfolio" className="transition-colors hover:text-primary">Portfolio</Link>
-          <a href="mailto:oliver.valenzuela@example.com" className="transition-colors hover:text-primary">oliver.valenzuela@example.com</a>
+          <a href="mailto:oliver.andere@gmail.com" className="transition-colors hover:text-primary">oliver.andere@gmail.com</a>
         </nav>
         <p className="text-sm text-muted-foreground">&copy; {currentYear} Oliver Valenzuela. All rights reserved.</p>
       </div>
