@@ -25,7 +25,7 @@ const projects: Project[] = [
   {
     title: 'Work Smart: Micro Habits for a Better Desk and Brain',
     description: 'A 5-minute microlearning experience that blends workplace wellness and behavioral science to improve focus and reduce stress through desk setup. Highlights: Microlearning, productivity, well-being.',
-    imageUrl: 'https://placehold.co/600x400.png',
+    imageUrl: 'https://images.unsplash.com/photo-1614624532983-4ce03382d63d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkZXNrdG9wfGVufDB8fHx8MTc1MTk1ODgzMHww&ixlib=rb-4.1.0&q=80&w=1080',
     imageHint: 'desk wellness',
     projectUrl: 'https://how2studiodemo.s3.us-east-2.amazonaws.com/Organize+Your+Desk+Like+a+Pro/story.html',
   },
